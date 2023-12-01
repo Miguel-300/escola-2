@@ -1,0 +1,122 @@
+header{
+    background-color: rgba(121, 124, 126, 0.918);
+    padding: 50px 0;
+    text-align: center;
+    
+    
+}
+
+.logo{
+    width: 400px;
+    top: 30px;
+    right: 800px;
+    position: absolute;
+   
+    
+}
+.navegaçao{
+   position: relative;
+   top: 50px;
+   padding: 0px 30px;
+   padding-left: 150px;
+}
+.head{
+    text-decoration: none;
+    outline: none;
+    color: white;
+    
+}
+.hove{
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 30px;
+   font-weight: bolder;
+    
+    
+}
+.head:hover {
+    color: black;
+}
+.hove:hover {
+    background-color: white;
+    color: black;
+    border-radius: 5px 5px 0px 0;
+   
+}
+
+main{
+   
+    
+}
+.container{
+    display: flex;
+}
+.lado2{
+    flex-direction: column;
+}
+.lado{
+    display: flex;
+    width: 100px;
+    height: 1500px;
+}
+
+.card1{
+    margin-top: 300px ;
+    margin-bottom: 300px;
+    margin-left: 150px;
+    width: 381px;
+    height: 352px;
+    background-color: #bababa;
+    border-radius: 50px 50px 0 0;
+   text-align: center;
+}
+.cor{
+        width: 381px;
+        height: 352px;
+        background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="381" height="352" viewBox="0 0 381 352" fill="none"><path d="M0 30C0 13.4314 13.4315 0 30 0H351C367.569 0 381 13.4315 381 30V240.238C381 251.421 374.78 261.675 364.862 266.843L209.16 347.969C200.678 352.388 190.598 352.499 182.021 348.266L16.7232 266.688C6.48304 261.634 0 251.205 0 239.786V30Z" fill="%231D3B68"/></svg>');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;    
+}
+.card1-header{
+        padding: 50px 45px;
+}
+
+.fundo{
+    
+        width: 290px;
+        height: 245px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="290" height="245" viewBox="0 0 290 245" fill="none"><path d="M0 30C0 13.4315 13.4315 0 30 0H260C276.569 0 290 13.4315 290 30V161.633C290 173.186 283.365 183.713 272.943 188.697L161.531 241.975C153.543 245.795 144.276 245.891 136.211 242.238L17.6219 188.522C6.89263 183.662 0 172.973 0 161.195V30Z" fill="%23F4F4F4"/></svg>');
+      
+      
+    
+}
+.tama{
+    width: 177px;
+    height: 154px;
+    flex-shrink: 0;
+    
+}
+.card1-footer{
+    background-color: #bababa;
+    border-radius: 0 0 25px 25px;
+    height: 50%;
+}
+.robo{
+    
+    width: 250px;
+    height: 78px;
+    background-color: #5A783D;
+    border-radius: 20px;
+    margin-top: 50px;
+    border: none;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+      
+}
